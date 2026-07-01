@@ -35,10 +35,11 @@ countries_tuple = ("japan", "usa", "nepal") #tuple
 countries_set = {"japan", "usa", "nepal"} #set
 
 print(countries_set)
+#
 
 
 # print(countries[0])
 
-
+#this was today learnign at AIudaan
 
 
