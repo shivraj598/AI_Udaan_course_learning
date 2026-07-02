@@ -1,31 +1,50 @@
-#      statement/block of code to be executed
+name ="manish"
+name2 = "anish"
+name3 = "nish"
+name4 = "ish"
 
-# age = 10
-# if age > 18:
-#      print("you can vote")
-# else:
-#      print("You cannot vote")
+names = ["manish", "anish", "nish", "ish"] #list datatypes
 
-# password = "nepal12366"
+country1 = "japan"
+country2 = "usa"
+country3 = "nepal"
 
-# if password=="nepal123":
-#      print("login success, password matched")
-# else:
-#      print("Login failed, password didnt matched")
-
-
-marks = 80
-
-# if marks >= 90:
-#     print("A+ aayo")
-# elif marks >= 80:
-#     print("A aayo")
-# elif marks >= 70:
-#     print("B+ aayo")
-# else:
-#     print("fail vaiyo")
+countries = ["japan", "usa", "nepal"] #list
+# countries.append("india") #add india to last
+# countries.insert(1, "bangladesh") #add bangladesh to first index
+# countries.pop() #remove last element
+# countries.remove("usa") #remove usa
+# countries.sort() #sort in ascending order
 
 
-for i in range(0,5):
-    print(i, end=" ")
+# print(len(countries))    #length of list
+# print(countries)
+
+
+countries_tuple = ("japan", "usa", "nepal") #tuple
+
+# print(countries_tuple.count("japan"))
+
+
+
+
+
+
+
+
+countries_set = {"japan", "usa", "nepal"} #set
+
+print(countries_set)
+
+
+
+# Loop through the list and print each country
+for country in countries:
+    print(country)
+
+
+# print(countries[0])
+
+#this was today learnign at AIudaan
+
 
